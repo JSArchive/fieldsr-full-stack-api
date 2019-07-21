@@ -1,0 +1,4 @@
+.vscode
+nodemon.json
+scratch/
+node_modules/
