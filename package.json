@@ -1,30 +1,33 @@
 {
-    "name": "fieldsr-full-stack-api",
-    "version": "1.0.0",
-    "description": "Today we are going to build a full-stack API from scratch.",
-    "main": "app.js",
-    "scripts": {
-      "debug": "PORT=5000 node --inspect app.js",
-      "dev": "nodemon app.js"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/pce-uw-jscript400/example-full-stack-api.git"
-    },
-    "keywords": [],
-    "author": "Wes Reid",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/pce-uw-jscript400/example-full-stack-api/issues"
-    },
-    "homepage": "https://github.com/pce-uw-jscript400/example-full-stack-api#readme",
-    "devDependencies": {
-      "nodemon": "^1.19.1",
-      "morgan": "^1.9.1"
-    },
-    "dependencies": {
-      "body-parser": "^1.19.0",
-      "express": "^4.17.1",
-      "mongoose": "^5.6.4"
-    }
+  "name": "fieldsr-full-stack-api",
+  "version": "1.0.0",
+  "description": "Full Stack API",
+  "main": "app.js",
+  "scripts": {
+    "debug": "PORT=5000 node --inspect app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryancfields/fieldsr-full-stack-api"
+  },
+  "keywords": [],
+  "author": "Ryan Fields",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryancfields/fieldsr-full-stack-api/issues"
+  },
+  "homepage": "https://github.com/ryancfields/fieldsr-full-stack-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "morgan": "^1.9.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.1.1",
+    "mongoose": "^5.6.4",
+    "mongoose-type-email": "^1.0.11",
+    "shortid": "^2.2.14"
   }
+}
